@@ -1,8 +1,9 @@
 version: 0.1
 
 endpoints:
-  - name: "REST API"
-    port: 8000
+  - name: "rest_api"
+    service:
+      port: 8000
     type: REST
     context: /
     networkVisibility: Public
